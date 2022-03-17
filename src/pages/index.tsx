@@ -9,7 +9,7 @@ const Home: NextPage = () => {
         </h1>
 
         <p>
-          Get started by editing <code>pages/index.js</code>
+          Get started by editing <code>pages/inde x.js</code>s
         </p>
       </main>
     </div>

@@ -1,6 +1,10 @@
-{ // Workspace settings
+{
+  // Workspace settings
   "files.exclude": {
-    "**/node_modules": true // Hide node_modules
+    "**/node_modules": true, // Hide node_modules
+    "**/.next": true, // Hide .next
+    "**/.husky": true, // Hide .husky
+    "**/.vscode": false
   },
   "editor.tabSize": 2, // Set tabsize to 2
   "editor.defaultFormatter": "esbenp.prettier-vscode", // Set default formatter to Prettier
@@ -8,5 +12,5 @@
   "editor.codeActionsOnSave": {
     "source.organizeImports": true, // Organize imports on save
     "source.fixAll.eslint": true // Run eslint:fix
-  },
+  }
 }
