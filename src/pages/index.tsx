@@ -1,8 +1,15 @@
+import Head from 'next/head';
+
 import type { NextPage } from 'next';
+
+import Component from '@/components/Component';
 
 const Home: NextPage = () => {
   return (
     <div>
+      <Head>
+        <title></title>
+      </Head>
       <main>
         <h1>
           Welcome to <a href="https://nextjs.org">Next.js 12!</a>
