@@ -2,8 +2,6 @@ import Head from 'next/head';
 
 import type { NextPage } from 'next';
 
-import Component from '@/components/Component';
-
 const Home: NextPage = () => {
   return (
     <div>
