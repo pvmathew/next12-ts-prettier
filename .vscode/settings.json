@@ -4,7 +4,7 @@
     "**/node_modules": true, // Hide node_modules
     "**/.next": true, // Hide .next
     "**/.husky": true, // Hide .husky
-    "**/.vscode": false
+    "**/.vscode": true
   },
   "editor.tabSize": 2, // Set tabsize to 2
   "editor.defaultFormatter": "esbenp.prettier-vscode", // Set default formatter to Prettier
